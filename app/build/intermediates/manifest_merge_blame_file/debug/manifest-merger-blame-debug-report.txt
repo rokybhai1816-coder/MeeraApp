@@ -1,0 +1,125 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="ai.meera.app"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="29"
+9        android:targetSdkVersion="34" />
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->/data/data/com.termux/files/home/MeeraApp/app/src/main/AndroidManifest.xml:4:5-66
+11-->/data/data/com.termux/files/home/MeeraApp/app/src/main/AndroidManifest.xml:4:22-64
+12    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+12-->/data/data/com.termux/files/home/MeeraApp/app/src/main/AndroidManifest.xml:5:5-70
+12-->/data/data/com.termux/files/home/MeeraApp/app/src/main/AndroidManifest.xml:5:22-68
+13    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+13-->/data/data/com.termux/files/home/MeeraApp/app/src/main/AndroidManifest.xml:6:5-76
+13-->/data/data/com.termux/files/home/MeeraApp/app/src/main/AndroidManifest.xml:6:22-74
+14    <uses-permission android:name="android.permission.FOREGROUND_SERVICE_MICROPHONE" />
+14-->/data/data/com.termux/files/home/MeeraApp/app/src/main/AndroidManifest.xml:7:5-87
+14-->/data/data/com.termux/files/home/MeeraApp/app/src/main/AndroidManifest.xml:7:22-85
+15    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+15-->/data/data/com.termux/files/home/MeeraApp/app/src/main/AndroidManifest.xml:8:5-76
+15-->/data/data/com.termux/files/home/MeeraApp/app/src/main/AndroidManifest.xml:8:22-74
+16    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+16-->/data/data/com.termux/files/home/MeeraApp/app/src/main/AndroidManifest.xml:9:5-77
+16-->/data/data/com.termux/files/home/MeeraApp/app/src/main/AndroidManifest.xml:9:22-75
+17
+18    <permission
+18-->[androidx.core:core:1.9.0] /data/data/com.termux/files/home/.gradle/caches/9.4.1/transforms/cc03a6f862deff90e7c475468e57d7c0/transformed/core-1.9.0/AndroidManifest.xml:22:5-24:47
+19        android:name="ai.meera.app.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+19-->[androidx.core:core:1.9.0] /data/data/com.termux/files/home/.gradle/caches/9.4.1/transforms/cc03a6f862deff90e7c475468e57d7c0/transformed/core-1.9.0/AndroidManifest.xml:23:9-81
+20        android:protectionLevel="signature" />
+20-->[androidx.core:core:1.9.0] /data/data/com.termux/files/home/.gradle/caches/9.4.1/transforms/cc03a6f862deff90e7c475468e57d7c0/transformed/core-1.9.0/AndroidManifest.xml:24:9-44
+21
+22    <uses-permission android:name="ai.meera.app.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+22-->[androidx.core:core:1.9.0] /data/data/com.termux/files/home/.gradle/caches/9.4.1/transforms/cc03a6f862deff90e7c475468e57d7c0/transformed/core-1.9.0/AndroidManifest.xml:26:5-97
+22-->[androidx.core:core:1.9.0] /data/data/com.termux/files/home/.gradle/caches/9.4.1/transforms/cc03a6f862deff90e7c475468e57d7c0/transformed/core-1.9.0/AndroidManifest.xml:26:22-94
+23
+24    <application
+24-->/data/data/com.termux/files/home/MeeraApp/app/src/main/AndroidManifest.xml:11:5-42:19
+25        android:allowBackup="true"
+25-->/data/data/com.termux/files/home/MeeraApp/app/src/main/AndroidManifest.xml:14:9-35
+26        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+26-->[androidx.core:core:1.9.0] /data/data/com.termux/files/home/.gradle/caches/9.4.1/transforms/cc03a6f862deff90e7c475468e57d7c0/transformed/core-1.9.0/AndroidManifest.xml:28:18-86
+27        android:debuggable="true"
+28        android:extractNativeLibs="false"
+29        android:label="Meera AI"
+29-->/data/data/com.termux/files/home/MeeraApp/app/src/main/AndroidManifest.xml:12:9-33
+30        android:theme="@style/AppTheme" >
+30-->/data/data/com.termux/files/home/MeeraApp/app/src/main/AndroidManifest.xml:13:9-40
+31        <activity
+31-->/data/data/com.termux/files/home/MeeraApp/app/src/main/AndroidManifest.xml:16:9-23:20
+32            android:name="ai.meera.app.MainActivity"
+32-->/data/data/com.termux/files/home/MeeraApp/app/src/main/AndroidManifest.xml:17:13-41
+33            android:exported="true" >
+33-->/data/data/com.termux/files/home/MeeraApp/app/src/main/AndroidManifest.xml:18:13-36
+34            <intent-filter>
+34-->/data/data/com.termux/files/home/MeeraApp/app/src/main/AndroidManifest.xml:19:13-22:29
+35                <action android:name="android.intent.action.MAIN" />
+35-->/data/data/com.termux/files/home/MeeraApp/app/src/main/AndroidManifest.xml:20:17-68
+35-->/data/data/com.termux/files/home/MeeraApp/app/src/main/AndroidManifest.xml:20:25-66
+36
+37                <category android:name="android.intent.category.LAUNCHER" />
+37-->/data/data/com.termux/files/home/MeeraApp/app/src/main/AndroidManifest.xml:21:17-76
+37-->/data/data/com.termux/files/home/MeeraApp/app/src/main/AndroidManifest.xml:21:27-74
+38            </intent-filter>
+39        </activity>
+40
+41        <service
+41-->/data/data/com.termux/files/home/MeeraApp/app/src/main/AndroidManifest.xml:25:9-35:19
+42            android:name="ai.meera.app.MeeraAccessibilityService"
+42-->/data/data/com.termux/files/home/MeeraApp/app/src/main/AndroidManifest.xml:26:13-54
+43            android:exported="false"
+43-->/data/data/com.termux/files/home/MeeraApp/app/src/main/AndroidManifest.xml:28:13-37
+44            android:permission="android.permission.BIND_ACCESSIBILITY_SERVICE" >
+44-->/data/data/com.termux/files/home/MeeraApp/app/src/main/AndroidManifest.xml:27:13-79
+45            <intent-filter>
+45-->/data/data/com.termux/files/home/MeeraApp/app/src/main/AndroidManifest.xml:29:13-31:29
+46                <action android:name="android.accessibilityservice.AccessibilityService" />
+46-->/data/data/com.termux/files/home/MeeraApp/app/src/main/AndroidManifest.xml:30:17-91
+46-->/data/data/com.termux/files/home/MeeraApp/app/src/main/AndroidManifest.xml:30:25-89
+47            </intent-filter>
+48
+49            <meta-data
+49-->/data/data/com.termux/files/home/MeeraApp/app/src/main/AndroidManifest.xml:32:13-34:71
+50                android:name="android.accessibilityservice"
+50-->/data/data/com.termux/files/home/MeeraApp/app/src/main/AndroidManifest.xml:33:17-60
+51                android:resource="@xml/accessibility_service_config" />
+51-->/data/data/com.termux/files/home/MeeraApp/app/src/main/AndroidManifest.xml:34:17-69
+52        </service>
+53        <service
+53-->/data/data/com.termux/files/home/MeeraApp/app/src/main/AndroidManifest.xml:37:9-40:39
+54            android:name="ai.meera.app.MeeraVoiceService"
+54-->/data/data/com.termux/files/home/MeeraApp/app/src/main/AndroidManifest.xml:38:13-46
+55            android:exported="false"
+55-->/data/data/com.termux/files/home/MeeraApp/app/src/main/AndroidManifest.xml:40:13-37
+56            android:foregroundServiceType="microphone" />
+56-->/data/data/com.termux/files/home/MeeraApp/app/src/main/AndroidManifest.xml:39:13-55
+57
+58        <provider
+58-->[androidx.emoji2:emoji2:1.2.0] /data/data/com.termux/files/home/.gradle/caches/9.4.1/transforms/d5bc75d4f5517aa2db61d0043e1740f7/transformed/emoji2-1.2.0/AndroidManifest.xml:24:9-32:20
+59            android:name="androidx.startup.InitializationProvider"
+59-->[androidx.emoji2:emoji2:1.2.0] /data/data/com.termux/files/home/.gradle/caches/9.4.1/transforms/d5bc75d4f5517aa2db61d0043e1740f7/transformed/emoji2-1.2.0/AndroidManifest.xml:25:13-67
+60            android:authorities="ai.meera.app.androidx-startup"
+60-->[androidx.emoji2:emoji2:1.2.0] /data/data/com.termux/files/home/.gradle/caches/9.4.1/transforms/d5bc75d4f5517aa2db61d0043e1740f7/transformed/emoji2-1.2.0/AndroidManifest.xml:26:13-68
+61            android:exported="false" >
+61-->[androidx.emoji2:emoji2:1.2.0] /data/data/com.termux/files/home/.gradle/caches/9.4.1/transforms/d5bc75d4f5517aa2db61d0043e1740f7/transformed/emoji2-1.2.0/AndroidManifest.xml:27:13-37
+62            <meta-data
+62-->[androidx.emoji2:emoji2:1.2.0] /data/data/com.termux/files/home/.gradle/caches/9.4.1/transforms/d5bc75d4f5517aa2db61d0043e1740f7/transformed/emoji2-1.2.0/AndroidManifest.xml:29:13-31:52
+63                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+63-->[androidx.emoji2:emoji2:1.2.0] /data/data/com.termux/files/home/.gradle/caches/9.4.1/transforms/d5bc75d4f5517aa2db61d0043e1740f7/transformed/emoji2-1.2.0/AndroidManifest.xml:30:17-75
+64                android:value="androidx.startup" />
+64-->[androidx.emoji2:emoji2:1.2.0] /data/data/com.termux/files/home/.gradle/caches/9.4.1/transforms/d5bc75d4f5517aa2db61d0043e1740f7/transformed/emoji2-1.2.0/AndroidManifest.xml:31:17-49
+65            <meta-data
+65-->[androidx.lifecycle:lifecycle-process:2.4.1] /data/data/com.termux/files/home/.gradle/caches/9.4.1/transforms/78aa95c2621952345ef69ce724d3bd0c/transformed/lifecycle-process-2.4.1/AndroidManifest.xml:31:13-33:52
+66                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+66-->[androidx.lifecycle:lifecycle-process:2.4.1] /data/data/com.termux/files/home/.gradle/caches/9.4.1/transforms/78aa95c2621952345ef69ce724d3bd0c/transformed/lifecycle-process-2.4.1/AndroidManifest.xml:32:17-78
+67                android:value="androidx.startup" />
+67-->[androidx.lifecycle:lifecycle-process:2.4.1] /data/data/com.termux/files/home/.gradle/caches/9.4.1/transforms/78aa95c2621952345ef69ce724d3bd0c/transformed/lifecycle-process-2.4.1/AndroidManifest.xml:33:17-49
+68        </provider>
+69    </application>
+70
+71</manifest>
